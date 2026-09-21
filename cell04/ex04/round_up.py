@@ -1,0 +1,1 @@
+print(float(input("Give me a number: ")).__ceil__())
