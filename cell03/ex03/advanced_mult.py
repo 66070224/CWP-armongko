@@ -2,8 +2,6 @@
 
 i = 0
 while True:
-    if i >= 11:
-        break
     print(f"Table de {i}:", end="")
     j = 0
     while True:
@@ -12,5 +10,7 @@ while True:
         if j >= 11:
             break
     i += 1
+    if i >= 11:
+        break
     print()
 
