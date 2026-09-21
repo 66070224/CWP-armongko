@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 i = 0
 while True:
     if i >= 11:
@@ -11,3 +13,4 @@ while True:
             break
     i += 1
     print()
+
