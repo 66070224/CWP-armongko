@@ -10,7 +10,6 @@ while True:
         if j >= 11:
             break
     i += 1
+    print()
     if i >= 11:
         break
-    print()
-
