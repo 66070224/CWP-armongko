@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 fir = int(input("Give me the first number: "))
 sec = int(input("Give me the second number: "))
 print("Thank you!")

@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def isDecimal(val: str):
     try:
         if float(val).is_integer(): 
