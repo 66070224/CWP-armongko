@@ -1,12 +1,8 @@
 #!/usr/bin/env python3
 
 def isDecimal(val: str):
-    try:
-        if float(val).is_integer(): 
-            return "integer"
-        else:
-            return "decimal"
-    except ValueError:
+    if float(val).is_integer():
         return "integer"
+    return "decimal"
 
-print(f"This number is an {isDecimal(input("Give me a number: "))}.")
+print(f'This number is an {isDecimal(input("Give me a number: "))}.')
