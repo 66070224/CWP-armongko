@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 ori = [2, 8, 9, 48, 8, 22,-12, 2]
 itr = set([i + 2 for i in ori if i>5])
 
